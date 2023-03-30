@@ -88,11 +88,18 @@
   .IconXX{
     display: flex;
   }
-  
+
   .subscribe{
     width: 400px;
 }
 
+.logo1Div{
+  width: 300px;
+}
+
+.logo1{
+  width: 100%;
+}
  
 
   @media screen and (max-width:1280px){
