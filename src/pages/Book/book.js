@@ -1,12 +1,13 @@
 import React from 'react'
-import Navbar from '../../components/navbar/navbar'
+import BookNav from '../../components/bookNav/bookNav'
 
-function book() {
+
+function Book() {
   return (
     <div>
-     <Navbar/>
+    <BookNav/>
     </div>
   )
 }
 
-export default book
+export default Book
