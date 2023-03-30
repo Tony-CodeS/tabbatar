@@ -23,7 +23,7 @@ function works() {
         <div className='worksCard'>
             <div className='worksImgDiv'><img src={Img1} alt='' className='worksImg'/></div>
             <div className='cardDescription'>
-                <h1 className='cardTitle'> FIND YOUR DELIVERY</h1>
+                <h2 className='cardTitle'> FIND YOUR DELIVERY</h2>
                 <p className='cardText'> lorem ipsum, lorem ipsum,
                 lorem ipsum, lorem ipsum, 
                 lorem ipsum, lorem ipsum,  </p>
@@ -32,7 +32,7 @@ function works() {
         <div className='worksCard'>
         <div className='worksImgDiv'><img src={Img2} alt='' className='worksImg'/></div>
         <div className='cardDescription'>
-                <h1 className='cardTitle'> GET MOVING</h1>
+                <h2 className='cardTitle'> GET MOVING</h2>
                 <p className='cardText' id='cardText'> lorem ipsum, lorem ipsum,
                 lorem ipsum, lorem ipsum, 
                 lorem ipsum, lorem ipsum,  </p>
@@ -41,7 +41,7 @@ function works() {
         <div className='worksCard'>
         <div className='worksImgDiv'><img src={Img3} alt='' className='worksImg'/></div>
         <div className='cardDescription'>
-                <h1 className='cardTitle'> TRACK AND PAY IN THE APP</h1>
+                <h2 className='cardTitle'> TRACK AND PAY IN THE APP</h2>
                 <p className='cardText'> lorem ipsum, lorem ipsum,
                 lorem ipsum, lorem ipsum, 
                 lorem ipsum, lorem ipsum,  </p>
