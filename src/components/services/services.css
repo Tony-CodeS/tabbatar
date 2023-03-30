@@ -1,0 +1,89 @@
+.mainService{
+    background-color:#fbf8ea;
+}
+
+.serviceDiv{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.serviceHeading{
+    font-size: 50px;
+    font-weight: 900;
+    color:#F2CB05;
+    padding-top: 60px;
+}
+
+.serviceText{
+    margin-top: 50px;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.serviceImageDiv{
+   width: 100%;
+   display: flex;
+   margin: auto;
+}
+.Img1{
+    width: 100%;
+    height: 100%;
+}
+
+.Img2{
+    width: 100%;
+    height: 100%;
+}
+
+.Img3{
+    width: 100%;
+    height: 100%;
+}
+.Img4{
+    width: 100%;
+    height: 100%;
+}
+.Img5{
+    width: 100%;
+    height: 100%;
+}
+.Img6{
+    width: 100%;
+    height: 100%;
+}
+
+
+.ImgDiv1{
+    width: 25%;
+}
+
+.ImgDiv2{
+    width: 25%;
+}
+
+.ImgDiv3{
+    width: 25%;
+}
+.ImgDiv4{
+    width: 25%;
+}
+
+.childImgDiv{
+    width: 100%;
+    height: 50%;
+}
+
+@media screen and (max-width:1024px) {
+    .serviceDiv{
+        width: 80%;
+       
+    }
+}
+
+@media screen and (max-width:600px) {
+    .serviceDiv{
+        width: 90%;
+       
+    }
+}

@@ -1,0 +1,154 @@
+.mainTestimonialDiv{
+    background-color:#fbf8ea;
+    width: 100%;
+    padding-bottom: 80px;
+}
+.testimonialDiv{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.testimonialTitle{
+    font-size: 60px;
+    font-weight: 900;
+    
+}
+
+.maintestimonialcardDiv{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.testimonialcardDiv{
+    display: flex;
+    /* flex-wrap: wrap; */
+    width: 700px;
+    margin-bottom: 50px;
+    border: 1px solid rgb(116, 112, 112, 0.3);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.testimonialName{
+    font-size: 30px;
+    color:#F2CB05;
+}
+
+.testimonialComment{
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.rating{
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.testimonialWriteUp{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+
+@media screen and (max-width:1280px){
+    .testimonialcardDiv{
+        width: 500px;
+     } 
+
+     .rating{
+        margin-top: 10px;
+        font-size: 30px;
+    }
+
+    .testimonialComment{
+        font-size: 15px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width:1024px){
+    .testimonialcardDiv{
+        width: 700px;
+     } 
+
+     .rating{
+        margin-top: 20px;
+        font-size: 30px;
+    }
+
+    .testimonialComment{
+        font-size: 15px;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .testimonialcardDiv{
+        width: 500px;
+     } 
+
+     .rating{
+        margin-top: 10px;
+        font-size: 30px;
+    }
+
+    .testimonialComment{
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    .testimonialDiv{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+    .testimonialTitle{
+        font-size: 60px;
+        font-weight: 900;
+        
+    }
+}
+
+@media screen and (max-width:450px){
+ 
+
+.testimonialcardDiv{
+   flex-wrap: wrap;
+   width: 90%;
+   margin: auto;
+   margin-bottom: 20px;
+}
+
+.testimonialImageDiv{
+    margin: auto;
+}
+
+.testimonialDiv{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+.testimonialTitle{
+    font-size: 60px;
+    font-weight: 900;
+    
+}
+
+}
+
+@media screen and (max-width:300px){
+    .testimonialDiv{
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+    .testimonialTitle{
+        font-size: 40px;
+        font-weight: 900;
+        
+    }
+}
+

@@ -1,0 +1,155 @@
+
+html,body{
+  overflow-x: hidden;
+}
+.mainHero{
+    width: 100%;
+    height: 950px;
+    background: url('../../assets/unsplash_ZlgYTC28pGE.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.HeroWriteUp{
+    width: 70%;
+    height: 500px;
+    margin: auto;
+    margin-top: 200px;
+    text-align: center;
+}
+
+.overlay{
+    width: 100%;
+    height: 950px;
+    background-color: rgba(0,0,0,0.5);
+    padding: 10px;
+}
+
+.move{
+    font-size: 80px;
+    font-weight:bolder;
+    color: 
+    #F2CB05;
+    font-weight:900;
+
+}
+.text{
+    margin-top: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+    font-weight: 500;
+}
+
+.book-btn{
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    color: black;
+    font-family: 'Montserrat';
+    background-color:  #F2CB05;
+    margin-right: 10px;
+    font-weight: 700;
+  }
+
+  .sign-btn{
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Montserrat';
+    background-color: transparent;
+    font-weight: 700;
+  }
+
+  .btn-div{
+    margin-top: 30px;
+  }
+
+
+  @media screen and (max-width:1280px) {
+    .mainHero{
+        width: 100%;
+        height: 800px;
+    }
+
+    .overlay{
+        width: 100%;
+        height: 800px;
+    }
+
+    .HeroWriteUp{
+        width: 80%;
+        margin-top: 150px;
+    }
+  }
+
+  @media screen and (max-width:1024px){
+    .mainHero{
+        width: 100%;
+        height: 600px;
+    }
+
+    .overlay{
+        width: 100%;
+        height: 600px;
+    }
+
+    .HeroWriteUp{
+        width: 90%;
+        margin-top: 50px;
+    }
+
+    .move{
+        font-size: 70px;
+        font-weight:bolder;
+        color: 
+        #F2CB05;
+    
+    }
+  }
+
+  @media screen and (max-width:600px) {
+    .HeroWriteUp{
+        width: 100%;
+        margin-top: 50px;
+        height: 300px;
+    }
+
+    .move{
+        font-size: 50px;
+      }
+  }
+
+  @media screen and (max-width:450px){
+    .move{
+        font-size: 30px;
+      }
+
+      .HeroWriteUp{
+        width: 100%;
+        margin-top: 30px;
+        height: 300px;
+    }
+
+    .text{
+        margin-top: 20px;
+    }
+  }
+
+  @media screen and (max-width:370px) {
+    .text{
+        font-size: 18px;
+        line-height: 30px;
+    }
+  }
+
+  @media screen and (max-width:300px) {
+    .move{
+        font-size: 25px;
+      }
+  }

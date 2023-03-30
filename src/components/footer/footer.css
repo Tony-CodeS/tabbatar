@@ -1,0 +1,212 @@
+.mainFooterDiv{
+    background: rgba(0, 0, 0, 0.82);
+    padding-top: 100px;
+    padding-bottom: 50px;
+    /* height: 700px; */
+}
+
+
+.dark {
+    color: rgb(250, 241, 241);
+    font-weight: 700;
+    font-size: 40px;
+    display: inline;
+
+  }
+
+  .brandDark{
+    display: inline;
+  }
+
+  .footer{
+    width: 90%;
+    margin: auto;
+  }
+
+  .secondFooter{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+
+  .footUl{
+    list-style: none;
+    font-size: 20px;
+  }
+
+  .footLi{
+    text-decoration: none;
+    margin-bottom: 20px;
+  }
+
+  .footA{
+    color: white;
+    text-decoration: none;
+  }
+
+  .subscription{
+    font-size: 20px;
+    color: white;
+  }
+
+  .subscribeEmail{
+    width: 500px;
+    height: 70px;
+    background: transparent;
+    border: none;
+    border-bottom:1px solid #F2CB05;
+  }
+
+  .subscribeAction{
+    font-size: 20px;
+    color: #F2CB05;
+    margin-top: 10px;
+  }
+
+  .lastfooter{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+  }
+
+  .subscribeEmail:hover{
+    border: none;
+    border-bottom:1px solid #F2CB05;
+  }
+
+  .copyright{
+    display: flex;
+    color: white;
+  }
+
+  .Icon{
+    font-size: 20px;
+    color: white;
+    margin-left: 50px;
+  }
+
+  .IconXX{
+    display: flex;
+  }
+
+ 
+
+  @media screen and (max-width:1280px){
+    .footUl{
+        list-style: none;
+        font-size: 15px;
+      }
+
+    .subscribe{
+        width: 400px;
+    }
+
+    .subscribeEmail{
+        width: 400px;
+      
+      }
+
+      .lastfooter{
+        width: 40%;
+      }
+  }
+
+  @media screen and (max-width:1024px) {
+    .logo1Div{
+        width: 300px;
+    }
+
+    .logo1{
+        width: 100%;
+    }
+
+    
+  .footLi{
+    margin-bottom: 10px;
+  }
+  
+  
+  .footUl{
+    font-size: 15px;
+  }
+  }
+
+
+  @media screen and (max-width:920px){
+    .secondFooter{
+    flex-wrap: wrap;
+      }
+
+      .logo1Div{
+      margin-top: 30px;
+    }
+
+    .lastfooter{
+        width: 60%;
+        margin: auto;
+        margin-top: 30px;
+      }
+  }
+
+@media screen and (max-width:820px){
+    .copyrightIcon{
+        font-size: 25px;
+    }
+    .copyrighttext{
+        margin-top:3px;
+    }
+}
+  @media screen and (max-width:600px){
+    .footUl{
+        font-size: 20px;
+      }
+
+      .secondFooter{
+        margin-top: 20px;
+      }
+
+      .subscribe{
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .logo1Div{
+        margin-top: 40px;
+        width: 100%;
+      }
+
+      
+  .subscribeEmail{
+    width: 100%;
+
+  }
+
+  .footLink{
+    width: 100%;
+  }
+
+  .footLi{
+    text-decoration: none;
+    margin-bottom: 20px;
+  }
+
+  .lastfooter{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+  }
+  }
+
+  @media screen and (max-width:420px){
+    .lastfooter{
+        width: 100%;
+        flex-wrap: wrap;
+      }
+  }
+
+  @media screen and (max-width:400px){
+    .Icon{
+        margin-top: 30px;
+      }
+  
+  }

@@ -1,0 +1,70 @@
+.mainAboutPage{
+    background-color:#fbf8ea;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+.aboutPage{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0;
+    /* margin-top: 100px; */
+}
+
+.aboutHeading{
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.aboutHeading1{
+    font-size: 60px;
+    font-weight: bolder;
+    color:#F2CB05;
+}
+
+.aboutText{
+    width: 50%;
+    margin-top: 70px;
+}
+
+.firstText{
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.secondText{
+    margin-top: 50px; 
+    font-size: 20px;
+}
+
+
+@media screen and (max-width:1280px){
+    .aboutText{
+        margin-top: 60px;
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:1024px){
+    .aboutText{
+        margin-top: 60px;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .mainAboutPage{
+        padding-top: 50px;
+        /* height: 900px; */
+    }
+
+    .aboutHeading{
+        font-size: 50px;
+    }
+    
+    .aboutHeading1{
+        font-size: 50px;
+        
+    }
+}
+
