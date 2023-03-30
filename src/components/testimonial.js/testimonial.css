@@ -66,6 +66,7 @@
     .testimonialComment{
         font-size: 15px;
         margin-top: 10px;
+        background-color: #f23105;
     }
 }
 
@@ -82,6 +83,7 @@
     .testimonialComment{
         font-size: 15px;
         margin-top: 20px;
+        background-color: blue;
     }
 }
 
