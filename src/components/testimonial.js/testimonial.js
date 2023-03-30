@@ -45,7 +45,7 @@ const [testimonial, setTestimonial] = useState(testimonialArray.map(info =>{
     )
 }))
   return (
-    <div className='mainTestimonialDiv'>
+    <div className='mainTestimonialDiv' id='Testimonial'>
       <div className='testimonialDiv'>
         <h1 className='testimonialTitle'> Testimonial</h1>
       </div>

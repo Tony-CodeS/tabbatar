@@ -4,7 +4,7 @@ import aboutImage from '../../assets/aboutImage.png'
 
 function about() {
   return (
-    <div className='mainAboutPage'>
+    <div className='mainAboutPage' id='About'>
       <div className='aboutPage'>
         <div>
             <img src={aboutImage} alt='about'/>

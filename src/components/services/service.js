@@ -9,7 +9,7 @@ import Img6 from '../../assets/unsplash_ZlgYTC28pGE.png'
 
 function service() {
   return (
-    <div className='mainService'>
+    <div className='mainService' id='Service'>
       <div className='serviceDiv'>
         <h1 className='serviceHeading'> Services</h1>
         <p className='serviceText'> lorem ipsum lorem ipsum lorem ipsum lorem ipsum

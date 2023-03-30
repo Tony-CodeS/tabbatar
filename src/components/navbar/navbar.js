@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
+import {  Link } from "react-router-dom";
 import logo from '../../assets/Vector.png'
 import './navbar.css'
 
@@ -36,25 +37,25 @@ const Navbar = () => {
           }>
         <ul>
           <li className='list'>
-            <a href="/home">HOME</a>
+            <a href="/">HOME</a>
           </li>
           <li className='list'>
-            <a href="/about">ABOUT US</a>
+            <a href="#About">ABOUT US</a>
           </li>
           <li className='list'>
-            <a href="/contact">SERVICES</a>
-          </li>
-
-          <li className='list'>
-            <a href="/contact">TESTIMONIALS</a>
+            <a href="#Service">SERVICES</a>
           </li>
 
           <li className='list'>
-            <a href="/contact">TEAM</a>
+            <a href="#Testimonial">TESTIMONIALS</a>
+          </li>
+
+          <li className='list'>
+            <a href="/">TEAM</a>
           </li>
 
            <li>
-           <button className='con-btn'> <a href='/' id='bookingLink'> BOOK US</a></button>
+           <button className='con-btn'> <Link to='/book' id='bookingLink'> BOOK US</Link></button>
           </li>  
         </ul>
       </div>

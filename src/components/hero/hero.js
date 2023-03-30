@@ -1,10 +1,12 @@
 import React from 'react'
 import Navbar from '../navbar/navbar'
+import {  Link } from "react-router-dom";
+
 import './hero.css'
 
 function hero() {
   return (
-    <div>
+    <div id='Home'>
        
       <div className='mainHero'>
         <div className='overlay'>
@@ -16,7 +18,7 @@ function hero() {
              </p>
 
             <div className='btn-div'>
-                <button className='book-btn'> Book Now</button>
+                <button className='book-btn'><Link to='/book' id='bookLink'> Book Now</Link></button>
                 <button className='sign-btn'> Sign Up</button>
             </div>
         </div>
