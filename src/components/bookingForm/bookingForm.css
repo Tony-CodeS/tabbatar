@@ -31,7 +31,7 @@
 .formCardLocation{
     width: 90%;
     /* background-color: white; */
-    padding: 20px;
+    /* padding: 10px; */
     margin: auto;
     margin-bottom: 20px;
 }
@@ -73,6 +73,7 @@
     width: 350px;
     height: 50px;
     font-size: 20px;
+    margin-top: 15px;
     border: 1px solid #F2CB05;
    
 }
