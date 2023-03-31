@@ -23,10 +23,14 @@ function BookingForm() {
     <h3> What can we help you with?</h3>
 
    <div className='secondFormDiv'>
-   <input type='radio' name='businesstype' className='radio'/>
+<div className='moving'>
+<input type='radio' name='businesstype' className='radio'/>
     <label className='label'>For moving home</label>
-    <input type='radio' name='businesstype' className='radio'/>
+</div>
+   <div>
+   <input type='radio' name='businesstype' className='radio'/>
     <label>For moving Business</label>
+   </div>
    </div>
     </div>
 

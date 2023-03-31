@@ -210,7 +210,12 @@
 }
 
 @media screen and (max-width:300px){
-.radio{
+.moving{
     display: block;
+    margin-bottom: 10px;
+}
+
+.formCard{
+    padding: 10px;
 }
 }
