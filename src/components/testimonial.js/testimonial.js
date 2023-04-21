@@ -9,17 +9,17 @@ import {AiFillStar} from 'react-icons/ai'
 function Testimonial() {
 const testimonialArray =[
     {photo:Img1,
-     name: 'TAMEYI SEGUNYI', 
-     comment:"Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur.lorem ipsum Lorem ipsum dolor sit amet consectetur.lorem ipsum"},
+     name: 'SEGUN', 
+     comment:"If you want to stay ahead of the curve in the ever-evolving world of technology, this is the company you need to partner with. Their expertise and forward-thinking approach have helped us achieve our goals and outpace our competitors"},
      {photo:Img2,
-     name: 'TAMEYI SEGUNYI', 
-    comment:"Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur.lorem ipsum Lorem ipsum dolor sit amet consectetur.lorem ipsum"},
+     name: 'Anita', 
+    comment:"We needed a technology partner that could deliver cutting-edge solutions on time and on budget. This company exceeded our expectations with their talented team, proven methodologies, and innovative approach"},
     {photo:Img3,
-    name: 'TAMEYI SEGUNYI', 
-    comment:"Lorem ipsum dolor sit ametLorem ipsum dolor sit amet  consectetur.lorem ipsum Lorem ipsum dolor sit amet consectetur.lorem ipsum"},
+    name: 'Hassana', 
+    comment:"This company is more than just a vendor, they're a true partner in our success. Their deep understanding of our business and industry, coupled with their technical expertise, has helped us transform our operations and achieve our goals"},
     {photo:Img4,
-    name: 'TAMEYI SEGUNYI', 
-    comment:"Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur.lorem ipsum Lorem ipsum dolor sit amet consectetur.lorem ipsum"}]
+    name: 'Anthony', 
+    comment:"We've worked with many technology companies over the years, but this one stands out for their exceptional service and commitment to our success. They're not just developers, they're problem solvers who go above and beyond to deliver results."}]
 
 const [testimonial, setTestimonial] = useState(testimonialArray.map(info =>{
     return(

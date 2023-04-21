@@ -51,6 +51,7 @@ function BookingForm() {
     <h2> Select Vehicle</h2>
     <select>
         <option>Lorry</option>
+        <option>Lorry</option>
         <option>Car </option>
         <option>Truck </option>
     </select>

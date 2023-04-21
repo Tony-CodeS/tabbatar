@@ -1,5 +1,5 @@
 .mainWorksDiv{
-    background-color:#fbf8ea;
+    background-color:#caf0f8;
     padding-bottom: 70px;
     height: 100%;
 }
@@ -45,15 +45,16 @@
 .worksCard{
     width: 30%;
     padding: 20px;
+    box-shadow: 2px 2px 5px rgba(242, 203, 5, 0.5);
     /* height: 500px; */
-    background-color:  
-    #f4f1e3; 
+    /* background-color:  
+    #f4f1e3;  */
     
 }
 
 .worksImgDiv{
     width: 100%;
-    height: 70%;
+    height: 50%;
 }
 
 .worksImg{

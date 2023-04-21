@@ -5,7 +5,7 @@ html,body{
 .mainHero{
     width: 100%;
     height: 950px;
-    background: url('../../assets/unsplash_ZlgYTC28pGE.png');
+    background: url('../../assets/tabbatar3.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -13,6 +13,7 @@ html,body{
 .HeroWriteUp{
     width: 70%;
     height: 500px;
+    /* background: gold; */
     margin: auto;
     margin-top: 200px;
     text-align: center;
@@ -21,7 +22,7 @@ html,body{
 .overlay{
     width: 100%;
     height: 950px;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,255,0.4);
     padding: 10px;
 }
 
@@ -35,8 +36,9 @@ html,body{
 }
 .text{
     margin-top: 30px;
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 40px;
     color: white;
     font-weight: 500;
 }
@@ -117,6 +119,22 @@ html,body{
     }
   }
 
+  @media screen and (max-width:920px){
+    .HeroWriteUp{
+      width: 100%;
+      margin-top: 50px;
+      height: 300px;
+  }
+
+  .mainHero{
+    height: 1000px;
+  }
+
+  .overlay{
+    height: 1000px;
+   
+}
+  }
   @media screen and (max-width:600px) {
     .HeroWriteUp{
         width: 100%;
@@ -143,6 +161,15 @@ html,body{
     .text{
         margin-top: 20px;
     }
+
+    .mainHero{
+      height: 1100px;
+    }
+  
+    .overlay{
+      height: 1100px;
+     
+  }
   }
 
   @media screen and (max-width:370px) {

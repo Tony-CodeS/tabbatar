@@ -1,7 +1,7 @@
 import React from 'react'
-import Img1 from '../../assets/Rectangle 17.png'
-import Img2 from '../../assets/Rectangle 18.png'
-import Img3 from '../../assets/Rectangle 17 (1).png'
+import Img1 from '../../assets/tabattarListen.jpg'
+import Img2 from '../../assets/tabattarexecution.jpg'
+import Img3 from '../../assets/tabattarreview.jpg'
 import './works.css'
 
 function works() {
@@ -13,9 +13,7 @@ function works() {
         <h1 className='mainTitle2'>WORKS</h1>
        </div>
        <p className='worksText'>
-       Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-             lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+       By following these three key steps, we are able to provide our clients with a high level of service and deliver exceptional results.
        </p>
      </div>
 
@@ -23,28 +21,26 @@ function works() {
         <div className='worksCard'>
             <div className='worksImgDiv'><img src={Img1} alt='' className='worksImg'/></div>
             <div className='cardDescription'>
-                <h2 className='cardTitle'> FIND YOUR DELIVERY</h2>
-                <p className='cardText'> lorem ipsum, lorem ipsum,
-                lorem ipsum, lorem ipsum, 
-                lorem ipsum, lorem ipsum,  </p>
+                <h2 className='cardTitle'> Listen and Understand</h2>
+                <p className='cardText'> We work closely with our clients to understand their goals and challenges. This helps us tailor our solutions to meet their specific needs and requirements.
+
+</p>
             </div>
         </div>
         <div className='worksCard'>
         <div className='worksImgDiv'><img src={Img2} alt='' className='worksImg'/></div>
         <div className='cardDescription'>
-                <h2 className='cardTitle'> GET MOVING</h2>
-                <p className='cardText' id='cardText'> lorem ipsum, lorem ipsum,
-                lorem ipsum, lorem ipsum, 
-                lorem ipsum, lorem ipsum,  </p>
+                <h2 className='cardTitle'> Plan and Execute</h2>
+                <p className='cardText' id='cardText'>We develop a customized plan and execute it with precision, keeping our clients informed and involved throughout the process. We deliver high-quality results on time and within budget.
+
+</p>
             </div>
         </div>
         <div className='worksCard'>
         <div className='worksImgDiv'><img src={Img3} alt='' className='worksImg'/></div>
         <div className='cardDescription'>
-                <h2 className='cardTitle'> TRACK AND PAY IN THE APP</h2>
-                <p className='cardText'> lorem ipsum, lorem ipsum,
-                lorem ipsum, lorem ipsum, 
-                lorem ipsum, lorem ipsum,  </p>
+                <h2 className='cardTitle'> Review and Improve</h2>
+                <p className='cardText'>  We conduct a thorough review of our work to ensure that it meets our clients' expectations. We use their feedback to continuously improve our processes and deliver even better results in the future.  </p>
             </div>
         </div>
      </div>

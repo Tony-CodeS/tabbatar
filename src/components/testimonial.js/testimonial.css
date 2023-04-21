@@ -1,5 +1,5 @@
 .mainTestimonialDiv{
-    background-color:#fbf8ea;
+    background-color:#caf0f8;
     width: 100%;
     padding-bottom: 80px;
 }
@@ -50,6 +50,10 @@
 .testimonialWriteUp{
     margin-left: 20px;
     margin-top: 10px;
+}
+
+.testimonialImageDiv{
+    margin-top: 50px;
 }
 
 

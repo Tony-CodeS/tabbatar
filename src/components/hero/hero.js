@@ -12,13 +12,12 @@ function hero() {
         <div className='overlay'>
         <Navbar/>
         <div className='HeroWriteUp'>
-        <h1 className='move'> MOVE WITH EASE</h1>
-        <p className='text'> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        <p className='text'> We are a cutting-edge technology company dedicated to providing innovative solutions to our clients. Our team of experts is composed of some of the most talented and creative individuals in the industry, and we are committed to delivering top-quality services to our clients.
+        If you're interested in learning more about our services, our team, our mission , and our values. you can explore our website further or contact us directly. We are always happy to answer any questions you may have and help you find the solutions you need.
              </p>
 
             <div className='btn-div'>
-                <button className='book-btn'><Link to='/book' id='bookLink'> Book Now</Link></button>
+                <button className='book-btn'><Link to='/book' id='bookLink'> Send a Mail</Link></button>
                 <button className='sign-btn'> Sign Up</button>
             </div>
         </div>

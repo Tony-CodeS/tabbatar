@@ -1,6 +1,5 @@
 import React from 'react'
-import logo from '../../assets/Vector (2).png'
-import logo1 from '../../assets/Vector (4).png'
+import logo1 from '../../assets/WhatsApp_Image_2023-04-21_at_11.16.29_AM-removebg-preview.png'
 import {AiOutlineCopyrightCircle} from 'react-icons/ai'
 import {BsInstagram} from 'react-icons/bs'
 import {AiOutlineTwitter} from 'react-icons/ai'
@@ -11,10 +10,8 @@ function footer() {
     <div className='mainFooterDiv'>
       <div className='footer'>
         <div>
-        <div className='brandDark'>
-        <p className="dark"> MOVAZZ</p>
-       </div>
-       <img src={logo} alt='movazz' className='logo'/>
+    
+       <img src={logo1} alt='movazz' className='logo'/>
         </div>
 
         <div className='secondFooter'>
@@ -29,9 +26,12 @@ function footer() {
           </div>
 
           <div className='subscribe'>
-            <p className='subscription'>Subscribe to learn about our Latest News update and take advantage</p>
-            <p className='subscribeAction'>Enter Your Email</p>
-            <input type='email' placeholder='' className='subscribeEmail'/>
+            <p className='subscription'>Tabbatar Technologies Limited 
+            <br></br> No 2 Oliyide Street Off Unity Road 
+            <br></br>Ikeja, Lagos State Nigeria
+            <br></br> +2349075229900</p>
+            {/* <p className='subscribeAction'>Enter Your Email</p>
+            <input type='email' placeholder='' className='subscribeEmail'/> */}
           </div>
 
           <div className='logo1Div'>

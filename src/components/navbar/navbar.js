@@ -1,20 +1,14 @@
 import React from 'react'
 import { useState } from 'react'
-import {  Link } from "react-router-dom";
-import logo from '../../assets/Vector.png'
+import tabbatarlogo from '../../assets/WhatsApp_Image_2023-04-21_at_11.16.29_AM-removebg-preview.png'
 import './navbar.css'
 
 const Navbar = () => {
     const [isNavExpanded, setIsNavExpanded] = useState(false)
   return (
-    <div className='tony'>
+    <div className='main-Nav'>
         <nav className="navigation">
-   <div>
-   <p className="brand-name">
-       MOVAZZ
-      </p>
-   </div>
-   <img src={logo} alt='movazz' className='logo'/>
+   <img src={tabbatarlogo} alt='movazz' className='logo'/>
       <button className="hamburger"  onClick={() => {
           setIsNavExpanded(!isNavExpanded)
         }}>
@@ -49,14 +43,6 @@ const Navbar = () => {
           <li className='list'>
             <a href="#Testimonial">TESTIMONIALS</a>
           </li>
-
-          <li className='list'>
-            <a href="/">TEAM</a>
-          </li>
-
-           <li>
-           <button className='con-btn'> <Link to='/book' id='bookingLink'> BOOK US</Link></button>
-          </li>  
         </ul>
       </div>
     </nav>

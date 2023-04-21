@@ -50,6 +50,7 @@
 .secondFormDiv{
     margin-top: 20px;
 }
+
 .label{
     margin-right: 30px;
 }
@@ -120,6 +121,10 @@
     border-radius: 10px;
 }
 
+.moving{
+    display: block;
+    margin-bottom: 10px;
+}
 @media screen and (max-width:1280px) {
     .formCard1Location{
         background-color: white;
