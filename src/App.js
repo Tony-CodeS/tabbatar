@@ -1,17 +1,27 @@
+import { useState, useEffect } from 'react';
 import Home from './pages/home/home';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import Loading from './pages/home/Loading';
 import './App.css';
 
 
 function App() {
-  return (
-    <BrowserRouter>
-    <Routes>
-    <Route path="/" element={<Home/>}/>
-    {/* <Route path="book" element={<Book />}/> */}
-    </Routes>
-    </BrowserRouter>
-  );
+  const [loading, setloading] = useState(true)
+
+  useEffect(() => {
+    setTimeout(() => setloading(false), 4000)
+  }, [])
+  return<> {loading === false?(
+    <div>
+  <div >
+  <Home/>
+  </div>
+      
+    </div>
+  ) : (
+   <Loading/>
+  )} </>
 }
+
 
 export default App;
