@@ -78,7 +78,8 @@
     flex-direction: column;
     width: 100%;
     height: 500px;
-    background-color: #9eadf9;
+    background-color:#9eadf9;
+    z-index: 1;
   }
   .navigation-menu li {
     text-align: center;
