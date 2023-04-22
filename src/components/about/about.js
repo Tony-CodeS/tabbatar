@@ -1,19 +1,25 @@
 import React from 'react'
 import './about.css'
 import aboutImage from '../../assets/tabbatar6.jpg'
+import Aos from 'aos';
+import "aos/dist/aos.css"
+import { useEffect } from 'react'
 
-function about() {
+function About() {
+  useEffect(() => {
+    Aos.init({duration:1000})
+   }, []);
   return (
     <div className='mainAboutPage' id='About'>
       <div className='aboutPage'>
-        <div className='aboutImage'>
+        <div className='aboutImage' data-aos="flip-right">
             <img src={aboutImage} alt='about' width='100%' height='100%' className='aboutImage2'/>
         </div>
 
-        <div className='aboutText'>
-            <h2 className='aboutHeading'> About</h2>
-            <h2 className='aboutHeading1'>TABBATAR.</h2>
-            <p className='firstText'> 
+        <div className='aboutText' data-aos="zoom-in">
+            <h2 className='aboutHeading' data-aos="flip-right"> About</h2>
+            <h2 className='aboutHeading1' data-aos="flip-right">TABBATAR.</h2>
+            <p className='firstText' data-aos="zoom-in"> 
             We are a technology 
             company that provides innovative
              solutions to businesses and individuals.
@@ -21,7 +27,7 @@ function about() {
                technology and is dedicated to delivering top-quality services to our clients.
             </p>
 
-            <p className='secondText'>           
+            <p className='secondText' data-aos="zoom-in">           
        Our company was founded with the goal 
        of helping businesses and individuals leverage technology to achieve their goals.
         We understand that technology can be complex and overwhelming, 
@@ -38,4 +44,4 @@ function about() {
   )
 }
 
-export default about
+export default About
